@@ -22,9 +22,9 @@
 :Contacto: crossystem-contac@lists.sourceforge.net
 
 
-============
-Introducción
-============
+===================
+CROS - Introducción
+===================
 
 ¿Qué es CROS?
 -------------
@@ -105,15 +105,15 @@ Cabe en este momento definir:
       omnipotente dentro de la realidad narrada por él. Un buen director del
       juego sabe retener el control y hacer a creer a sus jugadores que no
       lo tiene.
-      
+
     * **Jugador:** es la persona que interpreta y crea a un personaje bajo
       la supervisión del director del juego.
-      
+
     * **Personaje Jugador:** Es un personaje dentro de la realidad creada
       por el director del juego, y es controlado por un jugador. Es
       representado por una serie de funciones matemáticas registradas en la
       hoja de personaje.
-      
+
     * **Personaje NO jugador:** personaje creado e interpretado por el
       director del juego, que interactúa de manera directa con los personajes
       de los jugadores.
@@ -134,9 +134,9 @@ arrojar dos dados de diez caras. Y así sucesivamente con ``3d10``, ``4d10``,
 etc.
 
 
-================================================
-Capítulo 1: cómo completar la hoja del personaje
-================================================
+=======================================================
+CROS - Capítulo 1: Como completar la hoja del personaje
+=======================================================
 
 Tabla 1: Descripción
 --------------------
@@ -174,12 +174,12 @@ Tabla 2: Atributos
           obtenido a uno de los atributos, se repite el proceso hasta llenar
           todos los campos. No pudiendo ser modificados excepto con el permiso
           del Director del Juego.
-          
+
         * ``Columna Modificadores:`` Posee valores que pueden ser positivos o
           negativos (+/-). Representan beneficios o desventajas en algún
           atributo ya sea por raza o cualquier factor externo sobre ellos. Son
           asignados por el Director del juego. Puede no tener valor.
-          
+
         * ``Columna Total:`` valor utilizado para realizar los chequeos de
           acciones de los personajes. El valor es el básico al cual se suma o se
           resta, según corresponda, al modificador.
@@ -192,21 +192,22 @@ Tabla 2: Atributos
           habilita qué tipo de armas puede manejar el personaje, ya que alguien
           muy débil no podría manejar armas que generen mucho retroceso o
           impliquen mucha fuerza.
-          
+
         * ``Constitución:`` Representa resistencia física en estado de reposo
           corporal además del cansancio y cálculo de vitalidad y la posibilidad,
           o no, de cargar con peso extra como es el caso de las armaduras por
           ejemplo.
-          
+
         * ``Reflejos:`` Se utiliza para verificar la velocidad de reacción ante
           eventos sorpresivos, acrobacias, iniciativa de batalla, precisión en
           ataque con armas con las cuales sea necesario apuntar.
+
         * ``Movimiento:`` Capacidad del personaje para desplazarse velozmente en
           distancias cortas.
-          
+
         * ``Coordinación:`` Se utiliza para el cálculo de habilidades que
           impliquen un trabajo minucioso y preciso.
-          
+
         * ``Apariencia:`` Representa la apariencia física, cómo percibe un
           personaje a otro a través de sus ojos. Mientras mas belleza física
           posea un personaje mas envidia genera en  los seres de su raza que
@@ -288,21 +289,20 @@ Tabla 2: Atributos
             | 10    | Magia arcana, teorías científicas avanzadas, etc.        |
             +-------+----------------------------------------------------------+
 
-
-        * ``Sociabilidad:`` Capacidad del personaje de relacionarse con los 
+        * ``Sociabilidad:`` Capacidad del personaje de relacionarse con los
           otros seres inteligentes que lo rodean.
-          
+
         * ``Percepción:`` Habilidad del personaje para prestar atención a
           detalles que lo rodean para sacar conclusiones.
-        
+
         * ``Voluntad:`` Capacidad del personaje para realizar una acción que va
           en contra de su deseo o sentimientos, así como perseverar en objetivos
           que no ha logrado.
-          
+
         * ``Suerte:`` representa la mayor probabilidad del personaje en lograr
           algo por medio del azar.
-          
-          
+
+
 Tabla 3: Armas y Ataques
 ------------------------
 
@@ -335,16 +335,16 @@ Tabla 5: Habilidades
 --------------------
 
 Esta tabla funciona como control de la evolución del personaje y sus
-experiencias adquiridas. No todas las experiencias son buenas por lo que no 
-implica una necesaria mejora del personaje original. Así, si un personaje es 
-particularmente malo en algo se le puede agregar un modificador negativo a la 
+experiencias adquiridas. No todas las experiencias son buenas por lo que no
+implica una necesaria mejora del personaje original. Así, si un personaje es
+particularmente malo en algo se le puede agregar un modificador negativo a la
 hora de ejecutar esa tarea específica.
 
-La columna nombre identifica a la habilidad, y la columna fórmula contiene la 
-fórmula que se utiliza cuando el jugador intenta poner en práctica esa habilidad 
+La columna nombre identifica a la habilidad, y la columna fórmula contiene la
+fórmula que se utiliza cuando el jugador intenta poner en práctica esa habilidad
 de su personaje.
 
-Queda a criterio del DJ si un personaje posee o no una habilidad al momento de 
+Queda a criterio del DJ si un personaje posee o no una habilidad al momento de
 su creación.
 
 
@@ -371,13 +371,13 @@ Tabla 7: Dinero
 Cantidad de dinero que el personaje lleva consigo.
 
 Se calcula:
- 
+
 **``(Voluntad [Valor Total] + Sociabilidad [Valor Total] + Inteligencia [Valor Total]) x (Suerte [Valor Total] x 1d10)``**
 
 
-======================================
-Apéndice A: Armas, ataques y Armaduras
-======================================
+=============================================
+CROS - Apéndice A: Armas, ataques y Armaduras
+=============================================
 
 Armas y Ataques
 ---------------
@@ -395,7 +395,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Dif. A Superar p/Ataque Exitoso:** Dificultad a superar para un ataque
       exitoso usando el arma en su forma estándar.
     * **Ataque Alternativo:** Otra forma de utilización del arma para efectuar
-      un ataque. 
+      un ataque.
     * **Valor de Daño del Ataque Alternativo:** Daño generado por el arma en su
       uso alternativo.
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** Dificultad a superar para
@@ -413,8 +413,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Artes Marciales 
-    * **Ejemplos:** Entrenamiento Militar, Boxeo, Karate, etc (o algun golpe 
+* **Nombre:** Artes Marciales
+    * **Ejemplos:** Entrenamiento Militar, Boxeo, Karate, etc (o algun golpe
       especial).
     * **Fuerza Mínima:** 1
     * **Daño Básico:** FUE+1d10
@@ -423,12 +423,12 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Armas impropias pequeñas 
+* **Nombre:** Armas impropias pequeñas
     * **Ejemplos:** Abrecartas, Tijeras, Cuchillos de Mesa, etc.
     * **Fuerza Mínima:** 1
-    * **Daño Básico:** FUE+1d10+2 
+    * **Daño Básico:** FUE+1d10+2
     * **Dif. A Superar p/Ataque Exitoso:** 10
-    * **Ataque Alternativo:** Lanzar el arma 
+    * **Ataque Alternativo:** Lanzar el arma
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 12
 
@@ -447,7 +447,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Daño Básico:** FUE+1d10+4
     * **Dif. A Superar p/Ataque Exitoso:** 10
     * **Ataque Alternativo:** Lanzar el arma
-    * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+3 
+    * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+3
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 17
 
 * **Nombre:** Armas no letales.
@@ -457,7 +457,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Aclaración:** No todas estas armas pueden ser arrojadas.
     * **Dif. A Superar p/Ataque Exitoso:** 10
     * **Ataque Alternativo:** Lanzar el arma
-    * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+3 
+    * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+3
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 17
 
 * **Nombre:** Armas de una Mano
@@ -526,7 +526,7 @@ La tabla de armas y ataques posee los siguientes campos:
 * **Nombre:** Arcos y Flechas.
     * **Ejemplos:** Arcos y flechas.
     * **Fuerza Mínima:** 4
-    * **Daño Básico:** 1d10+8 
+    * **Daño Básico:** 1d10+8
     * **Dif. A Superar p/Ataque Exitoso:** 12
     * **Ataque Alternativo:** -
     * **Valor de Daño del Ataque Alternativo:** -
@@ -603,7 +603,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 4d10+20
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 12
 
-* **Nombre:** Subfusiles 
+* **Nombre:** Subfusiles
     * **Ejemplos:** UZI, H&K MP5 Navy, Ingram MAC10, etc.
     * **Fuerza Mínima:** 4
     * **Daño Básico:** 1d10+5
@@ -634,7 +634,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 4d10+5
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 16
 
-* **Nombre:** Fusiles de Francotirador 
+* **Nombre:** Fusiles de Francotirador
     * **Ejemplos:** M1 Garand, Steyr Scout, Dragunov, etc.
     * **Fuerza Mínima:** 4
     * **Daño Básico:** 2d10+13
@@ -663,7 +663,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Lanzagranadas  
+* **Nombre:** Lanzagranadas
     * **Ejemplos:** -
     * **Fuerza Mínima:** 4
     * **Daño Básico:** 3d10+20
@@ -677,11 +677,11 @@ La tabla de armas y ataques posee los siguientes campos:
       tipos de granadas explosivas.
     * **Fuerza Mínima:** 3
     * **Daño Básico:** 3d10+20
-    * **Dif. A Superar p/Ataque Exitoso:** 13 
+    * **Dif. A Superar p/Ataque Exitoso:** 13
     * **Ataque Alternativo:** -
     * **Valor de Daño del Ataque Alternativo:**-
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
-    
+
 
 Armaduras
 ---------
@@ -744,8 +744,7 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 5
     * **Protección:** +14
 
-* **Nombre:** Armaduras de Placas de Acero sobre Armaduras de Cuero o Cuero
-  Reforzado
+* **Nombre:** Armaduras de Placas de Acero sobre Armaduras de Cuero o Cuero Reforzado
     * **Ejemplos:** Peto de Placas Sobre Armadura de Cuero, Casco de Acero sobre
       bacinete, etc.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
@@ -763,11 +762,11 @@ La tabla de armaduras posee los siguientes campos:
       especial, etc.
     * **Aclaración:** La protección y la constitución mínima necesaria que esta
       clase de equipo brinda, queda a criterio del director.
-    * **Constitución Mínima:** 
+    * **Constitución Mínima:**
     * **Protección:** -
 
 * **Nombre:** Escudo anti disturbios.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
@@ -777,7 +776,7 @@ La tabla de armaduras posee los siguientes campos:
     * **Protección:** +25
 
 * **Nombre:** Rodela de madera.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
@@ -787,7 +786,7 @@ La tabla de armaduras posee los siguientes campos:
     * **Protección:** +2
 
 * **Nombre:** Rodela de metal.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado
       desde el frente o desde el flanco del brazo con el que sostiene el escudo,
       se realiza una tirada de (reflejos + 1d10) para determinar si logra
@@ -797,7 +796,7 @@ La tabla de armaduras posee los siguientes campos:
     * **Protección:** +5
 
 * **Nombre:** Escudo pequeño de madera.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo,
       se realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
@@ -807,17 +806,17 @@ La tabla de armaduras posee los siguientes campos:
     * **Protección:** +3
 
 * **Nombre:** Escudo pequeño de metal.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
-    el frente o desde el flanco del brazo con el que sostiene el escudo, se
-    realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
-    el ataque con el escudo, el valor necesario para bloquear de los escudos
-    pequeños de Metal es 12 o + desde el frente y 13 o + desde el flanco.
+      el frente o desde el flanco del brazo con el que sostiene el escudo, se
+      realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
+      el ataque con el escudo, el valor necesario para bloquear de los escudos
+      pequeños de Metal es 12 o + desde el frente y 13 o + desde el flanco.
     * **Constitución Mínima:** 1
     * **Protección:** +6
 
 * **Nombre:** Escudo mediano de madera.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
@@ -827,7 +826,7 @@ La tabla de armaduras posee los siguientes campos:
     * **Protección:** +4
 
 * **Nombre:** Escudo mediano de metal.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
@@ -837,13 +836,114 @@ La tabla de armaduras posee los siguientes campos:
     * **Protección:** +8
 
 * **Nombre:** Escudo torre.
-    * **Ejemplos:** 
+    * **Ejemplos:**
     * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de los escudos
-      Torre es 5 o + desde el frente y 6 o + desde el flanco. 
+      Torre es 5 o + desde el frente y 6 o + desde el flanco.
     * **Constitución Mínima:** 7
     * **Protección:** +12
 
 
+======================================================
+CROS - Apéndice B: Ejemplo de Creación de un Personaje
+======================================================
+
+Por una cuestiones de comodidad aceptaremos como válidas las siguientes
+premisas.
+
+    #. La ambientación es en época actual.
+    #. Se suponen personajes sólo humanos carentes de magias o habilidades
+       sobrenaturales.
+    #. Por simplicidad plantearemos un hipotético jugador, el cual intenta
+       desarrollar su **PJ** (Personaje del jugador) a través de una charla con el
+       **DJ** (Director del Juego).
+
+Luego de recibir datos sobre el tipo de juego a desarrollarse el jugador decide,
+en este ejemplo, desarrollar a un policía. Procede entonces a llenar los campos
+de la **Tabla Descripción**:
+
+    * ``Nombre:`` Pedro.
+    * ``Raza:`` Humano.
+    * ``Sexo:`` Masculino.
+    * ``Edad:`` 43 años.
+    * ``Ojos:`` Negros.
+    * ``Cabello:`` Castaño oscuro. Corte Romano.
+    * ``Profesión:`` Policía.
+    * ``Altura:`` 1,90 m.
+    * ``Peso:`` 85 Kg.
+    * ``Otros:`` Nariz torcida, barba mal afeitada, cicatriz en la frente.
+    * ``Arquetipo:`` Rufián de Buen Corazón. Entre el jugador y el director
+      acuerdan que esta frase representa que el personaje, es un hombre duro, de
+      mal carácter, poca voluntad en seguir la ley, pero siempre intentando
+      lograr el bien en las personas que los rodean actuando bajo su código
+      moral.
+
+Para rellenar la tabla de **Atributos** el jugador lanza ``1d10=2``; como él no
+esta interesado en que su personaje sea muy sociable, le asigna este valor ``2``
+al atributo ``Sociabilidad`` en la ``Columna Básico``. Como segunda tirada
+obtiene el valor ``7``, y dado que el jugador desea que su personaje sea sobre
+todo resistente asigna este valor a ``Constitución`` en la ``Columna Básico``. Y
+así continua valor por valor hasta que la tabla **Atributos** queda de la
+siguiente manera:
+
+    +------------------+------------+-----------+-----------+
+    |                  | **Básico** | **Modif** | **Total** |
+    +==================+============+===========+===========+
+    | **Fuerza**       | ``5``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Constitución** | ``7``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Reflejos**     | ``6``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Movimiento**   | ``3``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Coordinación** | ``1``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Apariencia**   | ``4``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Inteligencia** | ``5``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Sociabilidad** | ``2``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Percepcion**   | ``2``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Voluntad**     | ``4``      |           |           |
+    +------------------+------------+-----------+-----------+
+    | **Suerte**       | ``5``      |           |           |
+    +------------------+------------+-----------+-----------+
+
+A continuación el **DJ** le informa que según la supuesta ambientación, la
+profesión de ``Policía`` tiene tres modificadores en tres atributos: ``+1`` en
+``Inteligencia``, ``+1`` en ``Percepción`` y ``+1`` en ``Voluntad``.
+
+El jugador procede a anotar estos valores en la columna ``Modificadores`` de la
+tabla, y calcula el valor de la ``Columna Total``.
+
+
+    +------------------+------------+-----------+-----------+
+    |                  | **Básico** | **Modif** | **Total** |
+    +==================+============+===========+===========+
+    | **Fuerza**       | ``5``      |           | ``5``     |
+    +------------------+------------+-----------+-----------+
+    | **Constitución** | ``7``      |           | ``7``     |
+    +------------------+------------+-----------+-----------+
+    | **Reflejos**     | ``6``      |           | ``6``     |
+    +------------------+------------+-----------+-----------+
+    | **Movimiento**   | ``3``      |           | ``3``     |
+    +------------------+------------+-----------+-----------+
+    | **Coordinación** | ``1``      |           | ``1``     |
+    +------------------+------------+-----------+-----------+
+    | **Apariencia**   | ``4``      |           | ``4``     |
+    +------------------+------------+-----------+-----------+
+    | **Inteligencia** | ``5``      | ``+1``    | ``6``     |
+    +------------------+------------+-----------+-----------+
+    | **Sociabilidad** | ``2``      |           | ``2``     |
+    +------------------+------------+-----------+-----------+
+    | **Percepcion**   | ``2``      | ``+1``    | ``3``     |
+    +------------------+------------+-----------+-----------+
+    | **Voluntad**     | ``4``      | ``+1``    | ``5``     |
+    +------------------+------------+-----------+-----------+
+    | **Suerte**       | ``5``      |           | ``5``     |
+    +------------------+------------+-----------+-----------+
