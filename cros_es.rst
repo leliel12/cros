@@ -921,7 +921,6 @@ profesión de ``Policía`` tiene tres modificadores en tres atributos: ``+1`` en
 El jugador procede a anotar estos valores en la columna ``Modificadores`` de la
 tabla, y calcula el valor de la ``Columna Total``.
 
-
     +------------------+------------+-----------+-----------+
     |                  | **Básico** | **Modif** | **Total** |
     +==================+============+===========+===========+
@@ -987,4 +986,13 @@ disparar`` (Reflejos + 1d10), ``acechar`` (``Inteligencia + 1d10 + 1``).
 
 Se presenta a continuación la hoja resultante.
 
++-----------------------------------------------------------------------------+
+| LOGO CROS                                                                   |
++-----------------------------------------------------------------------------+
+| +--------------------------------------------------------------------------+|
+| | Descripción
+|
+|
+|
+|
 
