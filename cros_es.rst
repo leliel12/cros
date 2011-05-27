@@ -947,3 +947,44 @@ tabla, y calcula el valor de la ``Columna Total``.
     +------------------+------------+-----------+-----------+
     | **Suerte**       | ``5``      |           | ``5``     |
     +------------------+------------+-----------+-----------+
+
+Lo siguiente en seleccionar para su **PJ** por parte del jugador son sus armas y
+ataques. De las permitidas por el **DJ**, según la profesión y la ambientación
+del juego, el jugador selecciona a ``Artes Marciales``, una ``Macana`` y una 
+``Pistola 9mm``.
+
+La ``Pistola 9mm`` y la ``Macana`` poseen un tipo de ``Ataque Alternativo``, el
+cual es registrado en la tabla como otras armas más. La tabla de ``Armas y
+Ataques`` entonces queda de la siguiente manera.
+
+    +---------------------+---------+--------------------+
+    | **Nombre**          | **Dif** | **Daño**           |
+    +=====================+=========+====================+
+    | ``Artes Marciales`` | ``7``   | ``FUE+1d10``       |
+    +---------------------+---------+--------------------+
+    | ``Macana``          | ``10``  | ``FUE+1d10+4``     |
+    +---------------------+---------+--------------------+
+    | ``Lanzar Macana``   | ``17``  | ``(FUE/2)+1d10+3`` |
+    +---------------------+---------+--------------------+
+    | ``.9mm``            | ``12``  | ``1d10+5``         |
+    +---------------------+---------+--------------------+
+    | ``9mm Automático``  | ``14``  | ``1d10+5``         |
+    +---------------------+---------+--------------------+
+
+Ahora el jugador selecciona como equipo de su personaje un ``Chaleco
+Antibalas``, anota este elemento en la tabla correspondiente a ``Posesiones y
+Otras Notas``; y el correspondiente modificador en la protección del personaje
+en ``Protección y Control de Daño``.
+
+El DJ informa al jugador que los personajes de profesión policía poseen una
+habilidad que se llama ``Correr y Disparar`` la cual tiene la forma de cálculo
+``Coordinación + 1d10``. 
+
+Por último, el DJ decide que los policias poseen las habilidades:  ``correr y
+disparar`` (Reflejos + 1d10), ``acechar`` (``Inteligencia + 1d10 + 1``).
+
+**NOTA: Esto es un ejemplo realizado sin coherencia narrativa ni matemática.**
+
+Se presenta a continuación la hoja resultante.
+
+
