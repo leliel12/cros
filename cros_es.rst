@@ -358,7 +358,8 @@ o magnifica, según el caso, el daño que recibe el personaje.
 
 La ``Vitalidad Máxima`` del personaje se calcula con la formula:
 
-**``((Constitución[Valor Total]) * 5 ) + 20``**
+.. math::
+    ((Constitución[Valor Total]) * 5 ) + 20
 
 La casilla ``Vitalidad Actual`` contiene el estado en que se encuentra el
 personaje, reduciéndose cada vez que recibe un ataque, e incrementándose hasta
@@ -372,7 +373,9 @@ Cantidad de dinero que el personaje lleva consigo.
 
 Se calcula:
 
-**``(Voluntad [Valor Total] + Sociabilidad [Valor Total] + Inteligencia [Valor Total]) x (Suerte [Valor Total] x 1d10)``**
+.. math::
+    (Voluntad [Valor Total] + Sociabilidad [Valor Total] + 
+    Inteligencia [Valor Total]) x (Suerte [Valor Total] x 1d10)
 
 
 =============================================
@@ -989,7 +992,9 @@ disparar`` (Reflejos + 1d10), ``acechar`` (``Inteligencia + 1d10 + 1``).
 
 Se presenta a continuación la hoja resultante.
 
-
+.. raw:: pdf 
+    PageBreak
+    
 +---------------------------------------------------------------------------------------------------------------------------+
 | .. image:: img/logo_lr_bw.svg                                                                                             |
 |    :align: center                                                                                                         |
@@ -1025,7 +1030,7 @@ Se presenta a continuación la hoja resultante.
 | | +------------------+------------+-----------+-----------+ | +---------------------+---------+-----------------------+ | |
 | | | **Coordinación** | ``1``      |           | ``1``     | | | ``.9mm``            | ``12``  | ``1d10+5``            | | |
 | | +------------------+------------+-----------+-----------+ | +---------------------+---------+-----------------------+ | |
-| | | **Apariencia**   | ``4``      |           | ``4``     | | | ``.9mm Automático`` | ``14``  | ``1d10+5``            | | |
+| | | **Apariencia**   | ``4``      |           | ``4``     | | | ``.9mm Auto.``      | ``14``  | ``1d10+5``            | | |
 | | +------------------+------------+-----------+-----------+ | +---------------------+---------+-----------------------+ | |
 | | | **Inteligencia** | ``5``      | ``+1``    | ``6``     | | |                     |         |                       | | |
 | | +------------------+------------+-----------+-----------+ | +---------------------+---------+-----------------------+ | |
@@ -1045,7 +1050,7 @@ Se presenta a continuación la hoja resultante.
 | | +-------------------------------------------------------+ | +===========================+===========================+ | |
 | | |                                                       | | | ``Correr y disparar``     |  ``Reflejos + 1d10``      | | |
 | | +-------------------------------------------------------+ | +---------------------------+---------------------------+ | |
-| | |                                                       | | | ``Acechar``               | ``Intelig. + 1d10 + 1``   | | |
+| | |                                                       | | | ``Acechar``               | ``Int. + 1d10 + 1``       | | |
 | | +-------------------------------------------------------+ | +---------------------------+---------------------------+ | |
 | | |                                                       | | |                           |                           | | |
 | | +-------------------------------------------------------+ | +---------------------------+---------------------------+ | |
@@ -1083,6 +1088,96 @@ Se presenta a continuación la hoja resultante.
 | +-----------------------------------------------------------+-----------------------------------------------------------+ |
 +---------------------------------------------------------------------------------------------------------------------------+
 
+===================================
+Capítulo 2: Reglas Fuera de Combate
+===================================
+
+Resolución de Conflictos
+------------------------
+
+Cuando se presenta una situación durante la partida en la cual un jugador 
+intenta que su personaje realice una acción cuyo resultado el director del juego
+considere conflictiva (situaciones en las cuales favorece a la narración que el
+jugador no tenga la certeza de realizar correctamente lo que se propone), el
+jugador debe realizar un lanzamiento de 1d10 y sumarle a éste, el valor del
+atributo que rige la acción que intenta realizar y los correspondientes
+modificadores. El valor obtenido debe compararse con la dificultad planteada por
+el Director de Juego para realizar dicha acción. Cabe aclarar que cualquier
+valor que se obtenga de una fórmula y que posea decimales, debe redondearse al
+número entero inmediato inferior. Obtener un valor igual o mayor al de la
+dificultad, implica que el personaje realizó exitosamente la acción. La fórmula
+en resumen es:
+
+.. math::
+    (Atributo Total + Modificadores + 1d10) vs (Dificultad)
+
+Hay dos casos particulares en el resultado del término 1d10. Estos son:
+
+    * **Valor Abierto (1d10=10):** Se lanza nuevamente el dado y se añade el nuevo
+      valor al primer valor obtenido, si se volviese a obtener ``1d10=10``, se
+      vuelve a lanzar el dado y así sucesivamente. Claramente aumenta la
+      posibilidad de que la acción sea exitosa.
+
+    * **Fallo Crítico (1d10=1):** Un fallo crítico es siempre un fallo, sin
+      importar si las suma de los valores del atributo y del dado superan la
+      dificultad necesaria para realizar la acción. 1d10=1 no se considera fallo
+      crítico si es obtenido en una tirada abierta.
+    
+      Cuando se obtiene un fallo crítico el director, de acuerdo a
+      su criterio, puede determinar que el personaje simplemente falló su acción o
+      que además salió perjudicado al intentar realizarla, en este último caso la
+      acción le acarrea al personaje consecuencias negativas severas.
+
+**Dificultad:** la dificultad no siempre es un valor numérico.
 
 
+Lista de Atributos y Acciones que Rige cada Uno
+-----------------------------------------------
 
+Las siguientes son acciones ordenadas con respecto a su atributo regente. Es
+decir qué atributo hay que usar en la fórmula para resolver conflictos cuando se
+intenta realizar esa acción. Es una lista aproximada y No-exacta. Queda a
+criterio del **DJ** considerar soluciones acordes a cada situación.
+
+Cabe aclarar que hay acciones que, dadas situaciones diferentes **PUEDEN** ser
+regidas por atributos diferentes.
+
+``Fuerza:``
+    Levantar objetos y personas, empujar, destapar, estrangular, apretar,
+    romper, etc. 
+
+``Constitución:``
+    Aguantar, sostener, correr (resistir ritmo de trote), etc. 
+
+``Reflejos:``
+    Acrobacias, manejar, Disparar, Artes Marciales, bailar, conducir, esgrima,
+    esquivar, sigilo, nadar, saltar, correr (no tropezarse, no lastimarse), etc.
+
+``Movimiento:``
+    Distancias recorridas.
+
+``Coordinación:``
+    Armería, destruir (sin fuerza bruta),copiar, arte, robar, primeros auxilios,
+    seguridad, etc.
+
+``Apariencia:``
+    Arreglo personal, estilo, etc.
+
+``Inteligencia:``
+    Farmacéutica, forzar cerraduras, fotografía y filmación, trampa en juegos,
+    mecánica, informática, operación de maquinaria compleja, ciencias, evadir,
+    enseñar, investigar, estrategia, rastrear, supervivencia, disfrazase,
+    acechar, electrónica, etc.
+
+``Sociabilidad:``
+    Interactuar con las personas, interrogar, intimidar, convencer, seducir,
+    etc.
+
+``Percepción:``
+    Advertir, notar, etc.
+
+``Voluntad:``
+    Resistir torturas y drogas, etc.
+
+``Suerte:``
+    Todo lo relacionado con el azar.
