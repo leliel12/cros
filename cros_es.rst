@@ -384,24 +384,23 @@ Armas y Ataques
 
 La tabla de armas y ataques posee los siguientes campos:
 
-    * **Nombre:** El nombre que agrupa las armas o ataques con una
-      característica similar.
-    * **Ejemplo:** Ejemplos de ese tipo de arma o ataque que pertenecen a ese
-      grupo.
-    * **Aclaración:** Alguna nota pertinente.
-    * **Fuerza Mínima:** Valor mínimo del atributo “Fuerza” necesario para
-      utilizar esta arma.
-    * **Daño Básico:** Daño generado por el arma en su uso estándar.
-    * **Dif. A Superar p/Ataque Exitoso:** Dificultad a superar para un ataque
-      exitoso usando el arma en su forma estándar.
-    * **Ataque Alternativo:** Otra forma de utilización del arma para efectuar
-      un ataque.
-    * **Valor de Daño del Ataque Alternativo:** Daño generado por el arma en su
-      uso alternativo.
-    * **Dif. A Superar p/Ataque Alternativo Exitoso:** Dificultad a superar para
-      un ataque exitoso usando el arma en su forma alternativa.
+    * El nombre que agrupa las armas o ataques con una característica similar.
+        * **Ejemplo:** Ejemplos de ese tipo de arma o ataque que pertenecen a
+          ese grupo.
+        * **Aclaración:** Alguna nota pertinente.
+        * **Fuerza Mínima:** Valor mínimo del atributo “Fuerza” necesario para
+          utilizar esta arma.
+        * **Daño Básico:** Daño generado por el arma en su uso estándar.
+        * **Dif. A Superar p/Ataque Exitoso:** Dificultad a superar para un
+          ataque exitoso usando el arma en su forma estándar.
+        * **Ataque Alternativo:** Otra forma de utilización del arma para
+          efectuar un ataque.
+        * **Valor de Daño del Ataque Alternativo:** Daño generado por el arma en
+          su uso alternativo.
+        * **Dif. A Superar p/Ataque Alternativo Exitoso:** Dificultad a superar
+          para un ataque exitoso usando el arma en su forma alternativa.
 
-* **Nombre:** Ataque desarmado sin técnica.
+**Ataque Desarmado Sin Técnica.**
     * **Ejemplos:** Combate utilizando brazos y piernas sin ningún
       tipo de entrenamiento especial
     * **Aclaración:** Los resultados se redondean al valor entero inmediato
@@ -413,8 +412,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Artes Marciales
-    * **Ejemplos:** Entrenamiento Militar, Boxeo, Karate, etc (o algun golpe
+**Artes Marciales**
+    * **Ejemplos:** Entrenamiento militar, boxeo, karate, etc (o algun golpe
       especial).
     * **Fuerza Mínima:** 1
     * **Daño Básico:** FUE+1d10
@@ -423,8 +422,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Armas impropias pequeñas
-    * **Ejemplos:** Abrecartas, Tijeras, Cuchillos de Mesa, etc.
+**Armas Impropias Pequeñas**
+    * **Ejemplos:** Abrecartas, tijeras, cuchillos de mesa, etc.
     * **Fuerza Mínima:** 1
     * **Daño Básico:** FUE+1d10+2
     * **Dif. A Superar p/Ataque Exitoso:** 10
@@ -432,8 +431,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 12
 
-* **Nombre:** Armas pequeñas
-    * **Ejemplos:** Dagas, Puñales, Cuchillos de Combate, etc.
+**Armas Pequeñas**
+    * **Ejemplos:** Dagas, puñales, cuchillos de combate, etc.
     * **Fuerza Mínima:** 1
     * **Daño Básico:** FUE+1d10+5
     * **Dif. A Superar p/Ataque Exitoso:** 8
@@ -441,8 +440,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+5
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 10
 
-* **Nombre:** Armas impropias de  una mano
-    * **Ejemplos:** Tubos de Hierro, Botellas, Martillos, etc.
+**Armas Impropias de Una Mano**
+    * **Ejemplos:** Tubos de hierro, botellas, martillos, etc.
     * **Fuerza Mínima:** 2
     * **Daño Básico:** FUE+1d10+4
     * **Dif. A Superar p/Ataque Exitoso:** 10
@@ -450,7 +449,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+3
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 17
 
-* **Nombre:** Armas no letales.
+**Armas No Letales.**
     * **Ejemplos:** Tazer, manopla, macana, etc.
     * **Fuerza Mínima:** 2
     * **Daño Básico:** FUE+1d10+4
@@ -460,8 +459,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+3
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 17
 
-* **Nombre:** Armas de una Mano
-    * **Ejemplos:** Espadas, Mazas, Hachas de Mano, etc.
+**Armas de Una Mano**
+    * **Ejemplos:** Espadas, mazas, hachas de mano, etc.
     * **Fuerza Mínima:** 2
     * **Daño Básico:** FUE+1d10+8
     * **Dif. A Superar p/Ataque Exitoso:** 8
@@ -469,8 +468,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+8
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 15
 
-* **Nombre:** Armas impropias de dos manos
-    * **Ejemplos:** Bates de Baseball, Palos de Golf, Guitarras, Pala, etc.
+**Armas Impropias de Dos Manos**
+    * **Ejemplos:** Bates de baseball, palos de golf, guitarras, pala, etc.
     * **Fuerza Mínima:** 3
     * **Daño Básico:** FUE+1d10+8
     * **Dif. A Superar p/Ataque Exitoso:** 10
@@ -478,8 +477,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+5
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 22
 
-* **Nombre:** Armas de dos Manos
-    * **Ejemplos:** Espadones, Hachas Grandes, Alabardas, etc.
+**Armas de dos Manos**
+    * **Ejemplos:** Espadones, hachas grandes, alabardas, etc.
     * **Fuerza Mínima:** 5
     * **Daño Básico:** FUE+2d10+4
     * **Dif. A Superar p/Ataque Exitoso:** 8
@@ -487,8 +486,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** (FUE/2)+1d10+10
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 20
 
-* **Nombre:** Katanas
-    * **Ejemplos:** Katana, Ninjato, Wakisashis.
+**Katanas**
+    * **Ejemplos:** Katana, ninjato, wakisashis.
     * **Fuerza Mínima:** 4
     * **Daño Básico:** FUE+2d10+10
     * **Dif. A Superar p/Ataque Exitoso:** 8
@@ -496,7 +495,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Armas Arrojadizas Pequeñas
+**Armas Arrojadizas Pequeñas**
     * **Ejemplos:** Dagas arrojadizas, dardos, shurikens, etc.
     * **Fuerza Mínima:** 2
     * **Daño Básico:** FUE+1d10+2
@@ -505,7 +504,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** FUE+1d10+2
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 12
 
-* **Nombre:** Armas Arrojadizas Medianas
+**Armas Arrojadizas Medianas**
     * **Ejemplos:** Cuchillos Arrojadizos, Tomahawks, etc.
     * **Fuerza Mínima:** 4
     * **Daño Básico:** FUE+1d10+5
@@ -514,7 +513,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** FUE+1d10+5
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 11
 
-* **Nombre:** Armas Arrojadizas Grandes
+**Armas Arrojadizas Grandes**
     * **Ejemplos:** Jabalinas, Lanzas, etc.
     * **Fuerza Mínima:** 6
     * **Daño Básico:** FUE+1d10+8
@@ -523,7 +522,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** FUE+1d10+8
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 10
 
-* **Nombre:** Arcos y Flechas.
+**Arcos y Flechas.**
     * **Ejemplos:** Arcos y flechas.
     * **Fuerza Mínima:** 4
     * **Daño Básico:** 1d10+8
@@ -532,8 +531,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Arcos Compuestos
-    * **Ejemplos:** Arcos Compuestos
+**Arcos Compuestos**
+    * **Ejemplos:** Arcos compuestos
     * **Fuerza Mínima:** 6
     * **Daño Básico:** FUE+1d10+8
     * **Dif. A Superar p/Ataque Exitoso:** 12
@@ -541,7 +540,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Ballestas
+**Ballestas**
     * **Ejemplos:** Ballestas
     * **Fuerza Mínima:** 2
     * **Daño Básico:** 2d10+10
@@ -550,8 +549,8 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Revólveres de bajo calibre.
-    * **Ejemplos:** ,38 recortada
+**Revólveres de Bajo Calibre.**
+    * **Ejemplos:** .38 recortada
     * **Aclaración:** Caen en esta categoría todas las armas con calibre
       inferior a .357. que no son automáticas.
     * **Fuerza Mínima:** 2
@@ -561,7 +560,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Pistolas Automáticas de Bajo Calibre
+**Pistolas Automáticas de Bajo Calibre**
     * **Ejemplos:** Glock 18, Colt .25 ACP, Luger Parabellum 9mm., 22, 38, etc.
     * **Aclaración:** Caen en esta categoría todas las pistolas con calibre
       inferior a .357. Todas estas armas son automaticas
@@ -572,7 +571,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 2d10
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 15
 
-* **Nombre:** Revólveres de Alto Calibre
+**Revólveres de Alto Calibre**
     * **Ejemplos:** Revólver .357 Magnum, Colt 1911 .45 ACP, etc.
     * **Aclaración:** Caen en esta categoría todas las pistolas con calibre .357
       o superior no automaticas.
@@ -583,7 +582,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Pistolas Automáticas de Alto Calibre
+**Pistolas Automáticas de Alto Calibre**
     * **Ejemplos:** Desert Eagle,  Colt 1911 .45 ACP, etc.
     * **Aclaración:** Caen en esta categoría todas las pistolas con calibre .357
       o superior automáticas.
@@ -594,7 +593,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 3d10
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 3
 
-* **Nombre:** Escopetas
+**Escopetas**
     * **Ejemplos:** Itaka, Beneli M3, etc.
     * **Fuerza Mínima:** 3
     * **Daño Básico:** 2d10+10
@@ -603,7 +602,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 4d10+20
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 12
 
-* **Nombre:** Subfusiles
+**Subfusiles**
     * **Ejemplos:** UZI, H&K MP5 Navy, Ingram MAC10, etc.
     * **Fuerza Mínima:** 4
     * **Daño Básico:** 1d10+5
@@ -612,7 +611,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 3d10+2
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 15
 
-* **Nombre:** Fusiles Automáticos.
+**Fusiles Automáticos.**
     * **Ejemplos:** M4A1, FN FAL, etc.
     * **Aclaración:** Caen en esta categoría todos los Fusiles con calibre
       inferior a 5.56x45 mm.
@@ -623,9 +622,9 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 4d10+2
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 15
 
-* **Nombre:** Fusiles de Asalto.
+**Fusiles de Asalto.**
     * **Ejemplos:** AK47, M-16, Steyr AUG, etc.
-    * **Aclaración:** Caen en esta categoría todos los Fusiles con calibre
+    * **Aclaración:** Caen en esta categoría todos los fusiles con calibre
       5.56x45 mm o superior.
     * **Fuerza Mínima:** 6
     * **Daño Básico:** 2d10+4
@@ -634,7 +633,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** 4d10+5
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** 16
 
-* **Nombre:** Fusiles de Francotirador
+**Fusiles de Francotirador**
     * **Ejemplos:** M1 Garand, Steyr Scout, Dragunov, etc.
     * **Fuerza Mínima:** 4
     * **Daño Básico:** 2d10+13
@@ -643,7 +642,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Cañones Gatling
+**Cañones Gatling**
     * **Ejemplos:** MS249 Para, Minigun, etc
     * **Aclaración:** Estas armas sólo disparan en ráfagas de 30 balas por
       turno.
@@ -654,7 +653,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Lanzacohetes
+**Lanzacohetes**
     * **Ejemplos:** M1A1 "Bazuca", RPG 26, LAW, etc.
     * **Fuerza Mínima:** 5
     * **Daño Básico:** 5d10+50
@@ -663,7 +662,7 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Lanzagranadas
+**Lanzagranadas**
     * **Ejemplos:** -
     * **Fuerza Mínima:** 4
     * **Daño Básico:** 3d10+20
@@ -672,14 +671,14 @@ La tabla de armas y ataques posee los siguientes campos:
     * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
-* **Nombre:** Granadas
+**Granadas**
     * **Ejemplos:** Granadas de Fragmentación, Granadas Incendiarias y otros
       tipos de granadas explosivas.
     * **Fuerza Mínima:** 3
     * **Daño Básico:** 3d10+20
     * **Dif. A Superar p/Ataque Exitoso:** 13
     * **Ataque Alternativo:** -
-    * **Valor de Daño del Ataque Alternativo:**-
+    * **Valor de Daño del Ataque Alternativo:** -
     * **Dif. A Superar p/Ataque Alternativo Exitoso:** -
 
 
@@ -687,87 +686,88 @@ Armaduras
 ---------
 La tabla de armaduras posee los siguientes campos:
 
-    * **Nombre:** El nombre que agrupa a armaduras de similares características
-    * **Ejemplo:** Ejemplos de tipos de armaduras que pertenecen a ese grupo.
-    * **Aclaración:** Alguna nota pertinente.
-    * **Constitución Mínima:** Valor mínimo del atributo ``Constitución``
-      necesario para utilizar esta armadura.
-    * **Protección:**  Protección que añade la armadura al personaje.
+    * El nombre que agrupa a armaduras de similares características
+        * **Ejemplo:** Ejemplos de tipos de armaduras que pertenecen a ese
+          grupo.
+        * **Aclaración:** Alguna nota pertinente.
+        * **Constitución Mínima:** Valor mínimo del atributo ``Constitución``
+          necesario para utilizar esta armadura.
+        * **Protección:**  Protección que añade la armadura al personaje.
 
-* **Nombre:** Chaleco antibalas.
+**Chaleco Antibalas.**
     * **Ejemplos:** Chaleco antibalas.
     * **Aclaración:**
     * **Constitución Mínima:** 1
     * **Protección:** +25
 
-* **Nombre:** Cascos antibalas.
-    * **Ejemplos:** casco de guerra, casco policial antidisturbios, etc.
+**Cascos Antibalas.**
+    * **Ejemplos:** Casco de guerra, casco policial antidisturbios, etc.
     * **Aclaración:**
     * **Constitución Mínima:** 1
     * **Protección:** +25
 
-* **Nombre:** Cascos de cerámica.
-    * **Ejemplos:** casco de motociclista.
+**Cascos de Cerámica.**
+    * **Ejemplos:** Casco de motociclista.
     * **Aclaración:**
     * **Constitución Mínima:** 1
     * **Protección:** +5
 
-* **Nombre:** Armaduras de Cuero.
-    * **Ejemplos:** Armadura de Cuero, Pantalón de Cuero, Bacinete, etc.
+**Armaduras de Cuero.**
+    * **Ejemplos:** Armadura de cuero, pantalón de cuero, bacinete, etc.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
     * **Constitución Mínima:** 1
     * **Protección:** +4
 
-* **Nombre:** Armaduras de Cuero Reforzado.
-    * **Ejemplos:** Armadura de Cuero Reforzado, Pantalón de Cuero Reforzado,
-      Bacinete Reforzado, etc.
+**Armaduras de Cuero Reforzado.**
+    * **Ejemplos:** Armadura de cuero reforzado, pantalón de cuero reforzado,
+      bacinete reforzado, etc.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
     * **Constitución Mínima:** 2
     * **Protección:** +6
 
-* **Nombre:** Armaduras de Mallas
-    * **Ejemplos:** Cota de Mallas, Camisa de Mallas, Cofia de Mallas, etc.
+**Armaduras de Mallas**
+    * **Ejemplos:** cota de mallas, camisa de mallas, cofia de mallas, etc.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
     * **Constitución Mínima:** 3
     * **Protección:** +10
 
-* **Nombre:** Armaduras de Mallas sobre Armaduras de Cuero o Cuero Reforzado.
-    * **Ejemplos:** Cota de Mallas Sobre armadura de Cuero, Cofia de Mallas
-       Sobre Bacinete, etc.
+**Armaduras de Mallas sobre Armaduras de Cuero o Cuero Reforzado.**
+    * **Ejemplos:** Cota de mallas sobre armadura de cuero, cofia de mallas
+       sobre bacinete, etc.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
     * **Constitución Mínima:** 4
     * **Protección:** +13
 
-* **Nombre:** Armaduras de Placas de Acero.
-    * **Ejemplos:** Peto de Placas, Armadura de Placas, Casco de Acero, etc.
+**Armaduras de Placas de Acero.**
+    * **Ejemplos:** Peto de placas, armadura de placas, casco de acero, etc.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
     * **Constitución Mínima:** 5
     * **Protección:** +14
 
-* **Nombre:** Armaduras de Placas de Acero sobre Armaduras de Cuero o Cuero Reforzado
-    * **Ejemplos:** Peto de Placas Sobre Armadura de Cuero, Casco de Acero sobre
+**Armaduras de Placas de Acero sobre Armaduras de Cuero o Cuero Reforzado**
+    * **Ejemplos:** Peto de placas sobre armadura de cuero, casco de acero sobre
       bacinete, etc.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
     * **Constitución Mínima:** 6
     * **Protección:** +16
 
-* **Nombre:** Armaduras de Campaña (Cuero + Mallas + Placas de Acero).
+**Armaduras de Campaña (Cuero + Mallas + Placas de Acero).**
     * **Ejemplos:** Armadura Completa de Campaña.
     * **Aclaración:** Las partes protegidas varían según el modelo de armadura.
     * **Constitución Mínima:** 7
     * **Protección:** +19
 
-* **Nombre:** Trajes protectores especiales.
-    * **Ejemplos:** exoesqueletos, armaduras potenciadas con tecnología
+**Trajes Protectores Especiales.**
+    * **Ejemplos:** Exoesqueletos, armaduras potenciadas con tecnología
       especial, etc.
     * **Aclaración:** La protección y la constitución mínima necesaria que esta
       clase de equipo brinda, queda a criterio del director.
     * **Constitución Mínima:**
     * **Protección:** -
 
-* **Nombre:** Escudo anti disturbios.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
+**Escudo Anti-Disturbios.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de los escudos
@@ -775,9 +775,9 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 4
     * **Protección:** +25
 
-* **Nombre:** Rodela de madera.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
+**Rodela de Madera.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de las Rodelas
@@ -785,9 +785,9 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 1
     * **Protección:** +2
 
-* **Nombre:** Rodela de metal.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado
+**Rodela de Metal.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado
       desde el frente o desde el flanco del brazo con el que sostiene el escudo,
       se realiza una tirada de (reflejos + 1d10) para determinar si logra
       bloquear el ataque con el escudo, el valor necesario para bloquear de las
@@ -795,9 +795,9 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 1
     * **Protección:** +5
 
-* **Nombre:** Escudo pequeño de madera.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
+**Escudo Pequeño de Madera.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo,
       se realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de los escudos
@@ -805,9 +805,9 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 1
     * **Protección:** +3
 
-* **Nombre:** Escudo pequeño de metal.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
+**Escudo Pequeño de Metal.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de los escudos
@@ -815,9 +815,9 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 1
     * **Protección:** +6
 
-* **Nombre:** Escudo mediano de madera.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
+**Escudo Mediano de Madera.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de los escudos
@@ -825,9 +825,9 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 2
     * **Protección:** +4
 
-* **Nombre:** Escudo mediano de metal.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
+**Escudo Mediano de Metal.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de los escudos
@@ -835,9 +835,9 @@ La tabla de armaduras posee los siguientes campos:
     * **Constitución Mínima:** 4
     * **Protección:** +8
 
-* **Nombre:** Escudo torre.
-    * **Ejemplos:**
-    * **Aclaración:** cuando un personaje que porta un escudo es atacado desde
+**Escudo Torre.**
+    * **Ejemplos:** -
+    * **Aclaración:** Cuando un personaje que porta un escudo es atacado desde
       el frente o desde el flanco del brazo con el que sostiene el escudo, se
       realiza una tirada de (reflejos + 1d10) para determinar si logra bloquear
       el ataque con el escudo, el valor necesario para bloquear de los escudos
