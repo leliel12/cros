@@ -374,7 +374,7 @@ Cantidad de dinero que el personaje lleva consigo.
 Se calcula:
 
 .. math::
-    (Voluntad [Valor Total] + Sociabilidad [Valor Total] + 
+    (Voluntad [Valor Total] + Sociabilidad [Valor Total] +
     Inteligencia [Valor Total]) x (Suerte [Valor Total] x 1d10)
 
 
@@ -953,7 +953,7 @@ tabla, y calcula el valor de la ``Columna Total``.
 
 Lo siguiente en seleccionar para su **PJ** por parte del jugador son sus armas y
 ataques. De las permitidas por el **DJ**, según la profesión y la ambientación
-del juego, el jugador selecciona a ``Artes Marciales``, una ``Macana`` y una 
+del juego, el jugador selecciona a ``Artes Marciales``, una ``Macana`` y una
 ``Pistola 9mm``.
 
 La ``Pistola 9mm`` y la ``Macana`` poseen un tipo de ``Ataque Alternativo``, el
@@ -963,7 +963,7 @@ Ataques`` entonces queda de la siguiente manera.
     +---------------------+---------+-----------------------+
     | **Nombre**          | **Dif** | **Daño**              |
     +=====================+=========+=======================+
-    | Ataque Desarmado    | 8       | (FUE+1d10)/2          | 
+    | Ataque Desarmado    | 8       | (FUE+1d10)/2          |
     +---------------------+---------+-----------------------+
     | ``Artes Marciales`` | ``7``   | ``FUE+1d10``          |
     +---------------------+---------+-----------------------+
@@ -983,7 +983,7 @@ en ``Protección y Control de Daño``.
 
 El DJ informa al jugador que los personajes de profesión policía poseen una
 habilidad que se llama ``Correr y Disparar`` la cual tiene la forma de cálculo
-``Coordinación + 1d10``. 
+``Coordinación + 1d10``.
 
 Por último, el DJ decide que los policias poseen las habilidades:  ``correr y
 disparar`` (Reflejos + 1d10), ``acechar`` (``Inteligencia + 1d10 + 1``).
@@ -992,9 +992,9 @@ disparar`` (Reflejos + 1d10), ``acechar`` (``Inteligencia + 1d10 + 1``).
 
 Se presenta a continuación la hoja resultante.
 
-.. raw:: pdf 
+.. raw:: pdf
     PageBreak
-    
+
 +---------------------------------------------------------------------------------------------------------------------------+
 | .. image:: img/logo_lr_bw.svg                                                                                             |
 |    :align: center                                                                                                         |
@@ -1002,7 +1002,7 @@ Se presenta a continuación la hoja resultante.
 +---------------------------------------------------------------------------------------------------------------------------+
 | +-----------------------------------------------------------------------------------------------------------------------+ |
 | | **Descripción**                                                                                                       | |
-| +==========================================+========================================+===================================+ | 
+| +==========================================+========================================+===================================+ |
 | | **Nombre:** ``Pedro Grifo``              | **Raza:** ``Humano``                   | **Sexo:** ``Maculino``            | |
 | +------------------------------------------+----------------------------------------+-----------------------------------+ |
 | | **Edad:**  ``43 años``                   | **Ojos:** ``Negros``                   | **Cabello:** ``Castaño oscuro.    | |
@@ -1095,7 +1095,7 @@ Capítulo 2: Reglas Fuera de Combate
 Resolución de Conflictos
 ------------------------
 
-Cuando se presenta una situación durante la partida en la cual un jugador 
+Cuando se presenta una situación durante la partida en la cual un jugador
 intenta que su personaje realice una acción cuyo resultado el director del juego
 considere conflictiva (situaciones en las cuales favorece a la narración que el
 jugador no tenga la certeza de realizar correctamente lo que se propone), el
@@ -1122,7 +1122,7 @@ Hay dos casos particulares en el resultado del término 1d10. Estos son:
       importar si las suma de los valores del atributo y del dado superan la
       dificultad necesaria para realizar la acción. 1d10=1 no se considera fallo
       crítico si es obtenido en una tirada abierta.
-    
+
       Cuando se obtiene un fallo crítico el director, de acuerdo a
       su criterio, puede determinar que el personaje simplemente falló su acción
       o que además salió perjudicado al intentar realizarla, en este último caso
@@ -1144,10 +1144,10 @@ regidas por atributos diferentes.
 
 ``Fuerza:``
     Levantar objetos y personas, empujar, destapar, estrangular, apretar,
-    romper, etc. 
+    romper, etc.
 
 ``Constitución:``
-    Aguantar, sostener, correr (resistir ritmo de trote), etc. 
+    Aguantar, sostener, correr (resistir ritmo de trote), etc.
 
 ``Reflejos:``
     Acrobacias, manejar, Disparar, Artes Marciales, bailar, conducir, esgrima,
@@ -1181,8 +1181,8 @@ regidas por atributos diferentes.
 
 ``Suerte:``
     Todo lo relacionado con el azar.
-    
-    
+
+
 Administración de Habilidades
 -----------------------------
 
@@ -1202,7 +1202,7 @@ Las habilidades en CROS son utilizadas de dos maneras:
 Modificadores
 -------------
 
-Los modificadores son valores numéricos variables, representan una **ventaja 
+Los modificadores son valores numéricos variables, representan una **ventaja
 (con signo positivo [+])** o una **desventaja (con signo negativo [-])** en la
 situación en la cual se lleva a cabo una acción.
 
@@ -1255,10 +1255,10 @@ establecido por el **DJ**). Sugerimos los valores de la siguiente tabla.
     +---------------------------+----------------------------------------------+
     | Extremadamente Complicada | 21 o Más                                     |
     +---------------------------+----------------------------------------------+
-    
+
 **Si la acción se aplica sobre un personaje desprevenido:** La dificultad es el
 valor total del atributo opuesto a la acción. Es el **DJ** quien debe determinar
-cuál es el atributo opuesto a la acción realizada. 
+cuál es el atributo opuesto a la acción realizada.
 
 Ejemplo: Robar Bolsillos tendría como opuesto al atributo Percepción del
 objetivo. Esto quiere decir que el que está siendo robado percibe el robo.
@@ -1268,6 +1268,6 @@ fórmula de Resolución de conflictos, en una acción opuesta a la realizada sob
 el personaje objetivo. También queda a criterio del ****DJ**** cuál es la acción
 opuesta dado el contexto en el que se desarrolla.
 
-Ejemplo: En una situación en la que se intenta asechar a un personaje que 
+Ejemplo: En una situación en la que se intenta asechar a un personaje que
 sospecha que está siendo observado. Asechar tendría como opuesta a
 Advertir/Notar.
