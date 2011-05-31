@@ -1124,9 +1124,9 @@ Hay dos casos particulares en el resultado del término 1d10. Estos son:
       crítico si es obtenido en una tirada abierta.
     
       Cuando se obtiene un fallo crítico el director, de acuerdo a
-      su criterio, puede determinar que el personaje simplemente falló su acción o
-      que además salió perjudicado al intentar realizarla, en este último caso la
-      acción le acarrea al personaje consecuencias negativas severas.
+      su criterio, puede determinar que el personaje simplemente falló su acción
+      o que además salió perjudicado al intentar realizarla, en este último caso
+      la acción le acarrea al personaje consecuencias negativas severas.
 
 **Dificultad:** la dificultad no siempre es un valor numérico.
 
@@ -1181,3 +1181,93 @@ regidas por atributos diferentes.
 
 ``Suerte:``
     Todo lo relacionado con el azar.
+    
+    
+Administración de Habilidades
+-----------------------------
+
+Las habilidades en CROS son utilizadas de dos maneras:
+
+    * **Como calificador de razas, profesiones, etc:** Las habilidades pueden
+    ser utilizadas para generar las diferencias entre Razas o Profesiones, etc.
+    Así un personaje por ser de profesión pescador puede tener una fórmula de
+    cálculo distinta (beneficiosa) para la acción PESCAR; por ejemplo:
+    eliminando penalizadores.
+
+    * **Como experiencia:** CROS contempla un sistema de experiencia no general,
+    sino distribuido a modo de modificadores positivos o negativos en acciones
+    particulares que el jugador realice con su personaje.
+
+
+Modificadores
+-------------
+
+Los modificadores son valores numéricos variables, representan una **ventaja 
+(con signo positivo [+])** o una **desventaja (con signo negativo [-])** en la
+situación en la cual se lleva a cabo una acción.
+
+Por costumbre los modificadores que sólo representan una desventaja llevan el
+nombre de **penalizadores**.
+
+Los modificadores, como ya se ha descripto, representan una diferencia subjetiva
+de las probabilidades de éxito de una acción con respecto a la situación, es
+deber del **DJ* administrarlos. Un ejemplo sencillo es que la acción de
+encontrar algún objeto en la completa oscuridad no presenta la misma dificultad
+que encontrarlo a la luz del día; así el **DJ* debe considerar esto y asignar
+una **penalización** al intento de acción por parte del jugador.
+
+Los modificadores son acumulables, si una acción posee un modificador ``+X`` por
+algún motivo, y ``-Y`` por algún otro motivo; su modificador total es ``X-Y``.
+
+En CROS básico el único modificador fuera de combate es el llamado:
+
+    **Penalizador de Acción Múltiple:** Es la representación de la pérdida de
+    exactitud por el intento de realizar más de una acción al mismo tiempo.
+    Así por cada acción que se intente realizar se debe evaluar cada una con un
+    penalizador de ``-1``.
+
+Ej.: Correr, disparar y saltar implicaría una fórmula de correr, una de disparar
+y una de saltar cada una con un modificador ``-2``.
+
+
+Criterio de Selección de Dificultad
+-----------------------------------
+
+La correcta elección de la dificultad es una responsabilidad del **DJ**. Cuando un
+jugador declara una acción que el **DJ** considera conflictiva asigna en primer
+lugar la dificultad de la misma. Puede obtenerse de 3 maneras distintas.
+
+**Si la acción no se aplica sobre un personaje:** La dificultad es un valor
+establecido por el **DJ**). Sugerimos los valores de la siguiente tabla.
+
+    +--------------------------------------------------------------------------+
+    | **Dificultades Para Resolución de Conflictos**                           |
+    +---------------------------+----------------------------------------------+
+    | **Dificulta de la Tarea** | **Valor**                                    |
+    +===========================+==============================================+
+    | Fácil                     | 7                                            |
+    +---------------------------+----------------------------------------------+
+    | Poco usual                | 10                                           |
+    +---------------------------+----------------------------------------------+
+    | Complicada                | 13                                           |
+    +---------------------------+----------------------------------------------+
+    | Muy Complicada            | 16                                           |
+    +---------------------------+----------------------------------------------+
+    | Extremadamente Complicada | 21 o Más                                     |
+    +---------------------------+----------------------------------------------+
+    
+**Si la acción se aplica sobre un personaje desprevenido:** La dificultad es el
+valor total del atributo opuesto a la acción. Es el **DJ** quien debe determinar
+cuál es el atributo opuesto a la acción realizada. 
+
+Ejemplo: Robar Bolsillos tendría como opuesto al atributo Percepción del
+objetivo. Esto quiere decir que el que está siendo robado percibe el robo.
+
+**Si la acción se aplica sobre un personaje prevenido:** La dificultad es una
+fórmula de Resolución de conflictos, en una acción opuesta a la realizada sobre
+el personaje objetivo. También queda a criterio del ****DJ**** cuál es la acción
+opuesta dado el contexto en el que se desarrolla.
+
+Ejemplo: En una situación en la que se intenta asechar a un personaje que 
+sospecha que está siendo observado. Asechar tendría como opuesta a
+Advertir/Notar.
