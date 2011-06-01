@@ -1,0 +1,32 @@
+1 - Introduccion
+    a. la historia
+    b. una descripcion a grandes rasgos de lo que hay en el resto del libro
+    
+2 - La sociedad
+    a. geografia
+        a. mapa
+    b. ciudades estado
+    c. tecnologia
+    d. el bronzio
+    c. las razas
+    
+3 - Creando personajes para steamend chronicles
+    a. estereotipos basicos
+    b. armas
+    c. habilidades
+    d. hoja de personaje
+    
+4 - apendice A
+    Aventura 1
+    Aventura 2
+
+5 - Apendice B
+    bestiario
+    
+6 - Apendice C
+    armas, armaduras y vehiculos
+    
+7 - glosario
+    
+8 - changelog
+    

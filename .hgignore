@@ -24,4 +24,6 @@ syntax: regexp
 syntax: regexp
 ^.*(.)egg-info$
 syntax: regexp
-^(.)~lock(.).*#$
+^.*(.)~lock(.).*#$
+syntax: regexp
+^.*(.)zip$
