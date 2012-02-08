@@ -14,7 +14,9 @@
     a. estereotipos basicos
     b. armas
     c. habilidades
-    d. hoja de personaje
+
+- Apendice A
+    hoja de personaje
     
 4 - apendice A
     Aventura 1
@@ -25,8 +27,11 @@
     
 6 - Apendice C
     armas, armaduras y vehiculos
+
+7 - Apendice D
+    Cros 2.0.2
     
-7 - glosario
+8 - glosario
     
-8 - changelog
+9 - changelog
     
