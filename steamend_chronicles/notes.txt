@@ -35,3 +35,8 @@
     
 9 - changelog
     
+    
+clases
+    chapter_quote
+    monospaced
+    no_border_table

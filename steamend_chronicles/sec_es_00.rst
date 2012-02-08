@@ -164,9 +164,59 @@ juego (DJ) y los Jugadores narraran en conjunto.
 ¿Qué necesito para jugar?
 -------------------------
 
-- Tener una hoja de personaje impresa por cada jugador (Apéndice A).
-- Una copia de CROS 2.0.2
-- Por lo menos 1 dado de 10 caras (d10). 
-- Lapices y borradores.
+.. class:: no_border_table
 
-Ahora bien 
+    +------------------------------------------+------------------------+
+    | - Tener una hoja de personaje            | .. image:: img/d10.png |
+    |   impresa por cada jugador (Apéndice A). |    :scale: 50 %        |
+    | - Una copia de CROS 2.0.2                |                        |
+    | - Por lo menos 1 dado de 10 caras (d10). |                        |
+    | - Lapices y borradores.                  |                        |
+    +------------------------------------------+------------------------+
+
+
+La hoja de personaje fotocopiala o imprimila de este libro, los lapices y el
+borrador no vas a tener problemas en conseguirlo; y el dado de 10 caras se
+consigue en cualquier tienda de juegos de rol de tu ciudad.
+
+
+Como continua el libro
+----------------------
+
+En las siguientes paginas del libro vas a encontrar mucha informacion sobre
+como jugar en el mundo de **SteamEnd Chronicles** dividido de la siguiente forma
+
+- En la parte 1 encontraras una descripcion detallada de como es el mundo
+  donde se desarrollan las aventuras: como es su geografia, lugares conocidos
+  algunas leyendas, un poco de mas detalle de su historia, arte ciencias y
+  las diferentes castas y razas que populan el Nuevo Mundo.
+  
+- En el parte 2 se explicara como crear personajes para utilizar en una 
+  aventura partiendo de unos estereotipos sugeridos; siempre siguiendo las reglas
+  planteadas en CROS
+  
+- El tercera parte es el Apendice A, el cual es una hoja en blanco para crear
+  tus personajes.
+  
+- El apendice B es una lista de las criaturas que habitan el mundo de SteamEnd
+  las cuales puede que tu personaje tenga el gusto o el desagrado de 
+  encontrarselas.
+  
+- El tercer apendice o el C consiste en un larga y aburrida lista de todas las
+  armas, armaduras vehiculos y otras chucherias que desarrollo la sociedad del
+  Nuevo Mundo y que pueden ser utilizadas por tu personaje en las aventuras.
+
+- El Apendice D, sugiere algunas aventuras para introducir a tus jugadores
+  al Nuevo Mundo.
+
+- Por ultimo tenemos el glosario de terminos comunes en el manual
+
+
+
+
+.. header::
+    Steamend Chronicles - Post Apocaliptic Steampunk RPG 
+    
+.. footer::
+    Introducción
+
