@@ -1,16 +1,21 @@
 
 
 
-'Steamend Chronicles' es:
+**Steamend Chronicles** es:
  
 Copyright © 2012 - Juan B Cabral
 
 Esta obra está protegida bajo los siguientes términos
 
-Creative Commons Attribution-Share Alike 3.0 Unported
 
-La presente obra, el logo de la portada y cualquier otra imagen incluida está 
-liberada bajo una licencia Creative Commons Attribution-Share Alike 3.0 
+.. figure:: img/cc-by-sa.png
+   :scale: 100 %
+   
+   Creative Commons Attribution-Share Alike 3.0 Unported
+
+La presente obra, el logo y la imagen de la portada y cualquier otra 
+imagen incluida está liberada bajo una licencia 
+Creative Commons Attribution-Share Alike 3.0 
 Unported, que permite copiar, distribuir, exhibir y ejecutar la obra, hacer 
 obras derivadas y hacer usos comerciales de la misma, bajo las condiciones de 
 atribuir el crédito correspondiente al autor original y compartir las obras 
