@@ -29,6 +29,8 @@ CROS uses a system of experience by habilities, which rejects the global progres
 ## Downloads
 
 
+- Old versions: https://sourceforge.net/projects/crossystem/files/
+
 ---
 Made with:
 
